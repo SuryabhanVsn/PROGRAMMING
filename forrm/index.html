@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login and Signup Forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-title">
+        <h2>Login Form</h2>
+      </div>
+      <form action="#">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="form-group submit-btn">
+          <button type="submit">Login</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container">
+      <div class="form-title">
+        <h2>Signup Form</h2>
+      </div>
+      <form action="#">
+        <div class="form-group">
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone-No.:</label>
+          <input type="number" id="phone" name="phone" required />
+        </div>
+        <div class="form-group">
+          <label for="country">Country:</label>
+          <select id="country" name="country" required>
+            <option value="">Select Country</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Canada">Canada</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Date of Birth:</label>
+          <div class="dob-fields">
+            <input type="number" placeholder="DD" min="1" max="31" required />
+            <input type="number" placeholder="MM" min="1" max="12" required />
+            <input
+              type="number"
+              placeholder="YYYY"
+              min="1900"
+              max="2024"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-group submit-btn">
+          <button type="submit">Signup</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+*{
+    font-size: large;
+    background-color: rgb(187, 185, 185);
+}
+
+#box{
+    height: 170px;
+    width: 170px;
+    background-color: greenyellow;
+    /* margin-top: 5px; */
+}
+
+.ppp{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(104, 148, 110, 0.575);
+    border: 2px solid rgb(190, 123, 123);
+    text-align: center;
+}
+
+.newClass{
+    background-color: 
+    green;
+}
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(104, 148, 110, 0.575);
+    border: 2px solid rgb(190, 123, 123);
+    text-align: center;
+} */
