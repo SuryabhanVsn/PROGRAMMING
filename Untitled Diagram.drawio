@@ -1,145 +1,46 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
-  <diagram name="Page-1" id="J3WFRAcdgMcFPzcy3LAn">
+  <diagram name="Page-1" id="XauIgVVNs74x4HnEOfvZ">
     <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Employee" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="348" y="8" width="130" height="49" as="geometry" />
+        <mxCell id="2" value="Notification" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="39" y="8" width="117" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Leave Management System" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="302" y="130" width="223" height="49" as="geometry" />
+        <mxCell id="3" value="Approval" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="758" y="119" width="130" height="191" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Manager Approval Required?" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="342" y="252" width="143" height="143" as="geometry" />
+        <mxCell id="4" value="Request" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="78" width="527" height="238" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Manager" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="231" y="468" width="122" height="49" as="geometry" />
+        <mxCell id="5" value="Employee" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="33" y="195" width="130" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Approval Decision" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="203" y="567" width="178" height="178" as="geometry" />
+        <mxCell id="6" value="Manager" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="387" y="113" width="111" height="111" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Update Leave Balance" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="87" y="912" width="189" height="49" as="geometry" />
+        <mxCell id="7" value="HR" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="783" y="195" width="80" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="Notify Employee" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="327" y="912" width="148" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="9" value="HR Department" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="97" y="1129" width="171" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="10" value="Record Update Successful?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="63" y="1228" width="239" height="239" as="geometry" />
-        </mxCell>
-        <mxCell id="11" value="Notify Employee" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="8" y="1540" width="148" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="12" value="Notify IT Support" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="206" y="1540" width="153" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="13" value="Update Leave Balance" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="550" y="468" width="189" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="14" value="HR Department" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="559" y="631" width="171" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="15" value="Record Update Successful?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="525" y="818" width="239" height="239" as="geometry" />
-        </mxCell>
-        <mxCell id="16" value="Notify Employee" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="444" y="1129" width="148" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="17" value="Notify IT Support" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="668" y="1129" width="153" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="18" value="Submits Leave Request" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="2" target="3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="19" value="Verifies Availability" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="3" target="4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="20" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.95;entryX=0.5;entryY=0;" edge="1" parent="1" source="4" target="5">
+        <mxCell id="8" value="Submits leave request" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.1;entryX=0;entryY=0.5;" edge="1" parent="1" source="5" target="6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="292" y="432" />
+              <mxPoint x="269" y="168" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="5" target="6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="22" value="Approved" style="curved=1;startArrow=none;endArrow=block;exitX=0.06;exitY=1;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="6" target="7">
+        <mxCell id="9" value="Approves leave request" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.11;entryY=-0.01;" edge="1" parent="1" source="6" target="7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="182" y="781" />
+              <mxPoint x="758" y="168" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="23" value="Rejected" style="curved=1;startArrow=none;endArrow=block;exitX=0.93;exitY=1;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="6" target="8">
+        <mxCell id="10" value="Notifies employee" style="curved=1;startArrow=none;endArrow=block;exitX=0.11;exitY=0.99;entryX=1;entryY=0.89;" edge="1" parent="1" source="7" target="5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="401" y="781" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="7" target="9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;" edge="1" parent="1" source="9" target="10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="26" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.18;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="10" target="11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="82" y="1504" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="27" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.82;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="10" target="12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="282" y="1504" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="28" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.73;entryX=0.5;entryY=0;" edge="1" parent="1" source="4" target="13">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="644" y="432" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="13" target="14">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;" edge="1" parent="1" source="14" target="15">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="31" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.09;exitY=1;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="15" target="16">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="518" y="1093" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="32" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.82;exitY=1;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="15" target="17">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="744" y="1093" />
+              <mxPoint x="758" y="270" />
+              <mxPoint x="269" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
